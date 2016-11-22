@@ -1,0 +1,17 @@
+{
+"manifest_version": 2,
+    "name": "Alt-Right are Nazis",
+    "description": "An extension to help us remember who they really are.",
+    "version": "0.1",
+    "content_scripts": [
+        {
+            "matches": [
+                "*://*/*"
+            ],
+            "js": [
+                "content.js"
+            ],
+            "run_at": "document_end"
+        }
+    ]
+}
